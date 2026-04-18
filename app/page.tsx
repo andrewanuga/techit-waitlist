@@ -308,9 +308,19 @@ export default function Home() {
 
         {/* Section Content */}
         <div className="space-y-6">
-          {/* Section 1: Background */}
+                    {/* Section 1: Background */}
           {currentSection === 1 && (
             <>
+              {/* Survey Introduction Text */}
+              <div className="bg-linear-to-br from-blue-900/20 to-purple-900/20 backdrop-blur-sm rounded-xl p-6 border border-blue-700/50 mb-6">
+                <p className="text-gray-200 leading-relaxed">
+                  We are building a solution designed to better serve your needs, and your input is essential to us.
+                  This short survey aims to understand your challenges, preferences, and expectations.
+                  Your responses will directly shape how we improve and refine our product.
+                  Thank you for taking a few minutes to share your honest feedback.
+                </p>
+              </div>
+
               <div className="bg-gray-800/40 backdrop-blur-sm rounded-xl p-6 border border-gray-700 hover:border-gray-600 transition-all duration-300">
                 <label className="block text-white font-semibold mb-4 text-lg">
                   Which best describes you right now? <span className="text-red-400">*</span>
